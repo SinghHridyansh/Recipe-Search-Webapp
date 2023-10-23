@@ -1,0 +1,19 @@
+.favcontainer {
+  min-height: 100vh;
+  background: linear-gradient(to left, #a1c48f, #74a65a);
+  padding: 110px 0px 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.favWrapper {
+  /* background-color: aqua; */
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}

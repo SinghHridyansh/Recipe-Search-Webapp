@@ -1,0 +1,8 @@
+https://api.edamam.com/search?q=chicken&app_id=bd51c388&app_key=7781e30e86d61a0706ba99513a57012a
+
+
+https://api.spoonacular.com/recipes/complexSearch?apiKey=9bf8858a03684397a7f41c649eea6f05&query=chicken&number=10&addRecipeInformation=true&cuisine=
+
+https://api.spoonacular.com/recipes/637876/information?apiKey=9bf8858a03684397a7f41c649eea6f05
+
+https://api.spoonacular.com/recipes/random?apiKey=9bf8858a03684397a7f41c649eea6f05&number=10

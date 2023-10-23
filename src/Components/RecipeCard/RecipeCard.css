@@ -1,0 +1,150 @@
+.RecipeCard {
+  background-color: white;
+  height: 430px;
+  width: 450px;
+  flex-direction: column;
+  border-radius: 15px;
+
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.RecipeCard:hover {
+  transform: scale(1.01);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.2s ease-in;
+}
+
+.image {
+  height: 250px;
+}
+.recipe_image {
+  width: 450px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+  overflow: scroll;
+}
+.deets {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+
+  /* background-color: aqua; */
+}
+.recipe-info {
+  width: 100%;
+  padding: 20px;
+}
+.recipe_name {
+  height: 30px;
+}
+.recipe_name > span {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  color: grey;
+  font-family: "Mulish", sans-serif;
+}
+.recipe_deets {
+  height: 100%;
+  margin-top: 10px;
+  /* background-color: aqua; */
+}
+.recipeTags_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 20px;
+}
+.type_tag {
+  background-color: rgb(225, 225, 225);
+  color: rgb(38, 38, 38);
+  width: fit-content;
+  display: inline;
+
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+  font-size: 13px;
+}
+.status {
+  width: max-content;
+  height: 30px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.servings {
+  font-size: 20px;
+}
+.nvg {
+  width: max-content;
+  padding: 5px 10px 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trash-icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.recipe_deets {
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .RecipeCard {
+    height: 430px;
+    width: 350px;
+  }
+  .recipe_image {
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+  }
+  .servings {
+    font-size: 15px;
+  }
+  .status {
+    font-size: 12px;
+  }
+  .nvg {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .RecipeCard {
+    height: 400px;
+    width: 350px;
+  }
+  .recipe_image {
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+  }
+  .servings {
+    font-size: 15px;
+  }
+  .status {
+    font-size: 15px;
+  }
+  .nvg {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
