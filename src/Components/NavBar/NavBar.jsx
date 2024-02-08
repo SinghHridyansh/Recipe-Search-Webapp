@@ -15,7 +15,7 @@ const NavBar = () => {
   return (
     <div className="NavBar">
       <h1 style={{ color: "black" }}>
-        <Link to="/">Recipe Book</Link>
+        <Link to="/">Cuisine Quest</Link>
       </h1>
 
       <OutsideClickHandler

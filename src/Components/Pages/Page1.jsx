@@ -38,7 +38,6 @@ const Page1 = () => {
                   Maiores, nulla. Et blanditiis hic alias consequuntur nemo
                   itaque nobis corporis mollitia?
                 </span>
-                <br />
 
                 <button>
                   <Link to="/page2">Get Started</Link>
