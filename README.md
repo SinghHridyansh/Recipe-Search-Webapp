@@ -2,7 +2,7 @@
 
 ## Hosted Link
 
-https://tasksphere-connect.netlify.app/
+https://cuisine-quest-app.netlify.app/
 
 ## Description
 
